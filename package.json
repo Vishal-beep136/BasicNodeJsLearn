@@ -1,0 +1,21 @@
+{
+  "name": "nodeslearn",
+  "version": "1.0.0",
+  "description": "Hello, currently learning node js",
+  "exports": "./index.js",
+  "type": "module",
+  "node": "^12.20.0 || ^14.13.1 || >=16.0.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vishal Kumar",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "ejs": "^3.1.6",
+    "express": "^4.17.3",
+    "mongodb": "^4.4.1",
+    "mongoose": "^6.2.7",
+    "multer": "^1.4.4"
+  }
+}
